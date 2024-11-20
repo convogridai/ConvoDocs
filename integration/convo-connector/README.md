@@ -45,13 +45,14 @@ window.convoExtensionPosition({bottomMargin: '5vh'})
 window.convoExtensionPosition({rightMargin: '5vw'})
 ```
 
-<iframe height="700" style="width: 100%;" scrolling="no" title="Convo Connector" src="https://codepen.io/ConvGridAI/embed/XWvLjrg?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/ConvGridAI/pen/XWvLjrg">
+<p class="codepen" data-height="700" data-default-tab="html,result" data-slug-hash="XWvLjrg" data-pen-title="Convo Connector" data-editable="true" data-user="ConvGridAI" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ConvGridAI/pen/XWvLjrg">
   Convo Connector</a> by ConvoGrid AI (<a href="https://codepen.io/ConvGridAI">@ConvGridAI</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
- ## FAQ
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+ 
+## FAQ
 
  ### 1. Can anyone integrate my bot in their platforms? 
 
