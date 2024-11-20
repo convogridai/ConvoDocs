@@ -36,6 +36,9 @@
 * [Unpublish Bots](my-bots/unpublish-bots.md)
 * [Delete Bots](my-bots/delete-bots.md)
 
+## Integration
+* [Convo Connector](integration/convo-connector/README.md)
+
 ## Managing your account
 
 * [Your Profile](managing-your-account/your-profile.md)
