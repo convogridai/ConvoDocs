@@ -45,12 +45,8 @@ window.convoExtensionPosition({bottomMargin: '5vh'})
 window.convoExtensionPosition({rightMargin: '5vw'})
 ```
 
-<p class="codepen" data-height="700" data-default-tab="html,result" data-slug-hash="XWvLjrg" data-pen-title="Convo Connector" data-editable="true" data-user="ConvGridAI" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/ConvGridAI/pen/XWvLjrg">
-  Convo Connector</a> by ConvoGrid AI (<a href="https://codepen.io/ConvGridAI">@ConvGridAI</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+{% embed url="https://codepen.io/ConvoGridAI/pen/XWvLjrg" %}
+
  
 ## FAQ
 
