@@ -3,20 +3,23 @@
 This guide outlines the steps to integrate your Convo Bot with your platform, enabling seamless interaction with your users.
 
  ### 1. Verify your Domain
-Before integrating your bot into your platform, domain ownership verification is required. To verify your domain email to `support@convogrid.ai` with the subject `Convo Connector`
-mentioning the name of your bot and the domain name.
+Before integrating your bot into your platform, domain ownership verification is required. To verify your domain, email to `support@convogrid.ai` with the subject `Convo Connector`
+and including details on the bot name and the domain name.
 
-Upon receipt of your email, a support engineer will get in touch with you to guide you through the next steps.
+Once we receive an integration request, one of our support engineers will get in touch to guide you through the next steps.
 
 
  ### 2. Integrate the Connector 
 
-Once your domain is verified, the final step is to integrate the bot into your platform. To do so add the provided script tag to your website’s HTML.
+Once your domain is verified, the final step is to integrate the bot into the platform. To do so add the provided script tag to your website’s HTML.
 ```javascript
- <script id="convobot_extension" right-margin="3vw" bottom-margin="3vh"  src="https://content-beta.convogrid.ai/script/extension.64a3691d9dcc4852ddcd978d5ee4aa79f6ad2cc2.min.js"></script>
+ <script id="convobot_extension" fallback-to-default="true" right-margin="3vw" bottom-margin="3vh"  src="https://content-beta.convogrid.ai/script/extension.64a3691d9dcc4852ddcd978d5ee4aa79f6ad2cc2.min.js"></script>
 ```
 
 And that's it. Your platform is now supercharged with ConvoGrid!
+
+## Sample view a integrated ConvoGrid Bot 
+{% embed url="https://codepen.io/ConvoGridAI/pen/XWvLjrg" %}
 
 
  ## Bot Placement
@@ -26,7 +29,7 @@ The default bot placement is `3vw` from the `right-margin` and the `3vh` from th
 <figure><img src="../../.gitbook/assets/convo-connector-placement.png" alt=""><figcaption><p>Convo Bot Placement</p></figcaption></figure>
 
 
-### Custom Bot Placement
+### Override Default Bot Placement
 
 The default bot placement can be customized by passing the `right-margin` and `bottom-margin` attributes in the script tag.
 
@@ -45,7 +48,12 @@ window.convoExtensionPosition({bottomMargin: '5vh'})
 window.convoExtensionPosition({rightMargin: '5vw'})
 ```
 
-{% embed url="https://codepen.io/ConvoGridAI/pen/XWvLjrg" %}
+## Fallback to ConvoGrid Default Bot
+
+In case of a failure in your Convo Bot, we support a fallback option to enable the default ConvoGrid Bot. This allows users to interact with Convo bot widget uninterrupted, until your bot
+is restored and operational. To enable this feature, add the script attribute `fallback-to-default="true"` to your application. By default, this feature is disabled.
+
+
 
  
 ## FAQ
