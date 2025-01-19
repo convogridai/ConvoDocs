@@ -13,7 +13,7 @@ Once we receive an integration request, one of our support engineers will get in
 
 Once your domain is verified, the final step is to integrate the bot into the platform. To do so add the provided script tag to your website’s HTML.
 ```javascript
- <script id="convobot_extension" fallback-to-default="true" right-margin="3vw" bottom-margin="3vh"  src="https://content-beta.convogrid.ai/script/extension.64a3691d9dcc4852ddcd978d5ee4aa79f6ad2cc2.min.js"></script>
+ <script id="convobot_extension" fallback-to-default="true" right-margin="3vw" bottom-margin="3vh"  src="https://content-beta.convogrid.ai/script/extension.v.0.1.1.min.js"></script>
 ```
 
 And that's it. Your platform is now supercharged with ConvoGrid!
