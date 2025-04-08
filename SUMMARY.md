@@ -37,7 +37,9 @@
 * [Delete Bots](my-bots/delete-bots.md)
 
 ## Integration
+
 * [Convo Connector](integration/convo-connector/README.md)
+  * [WordPress Integration](integration/convo-connector/wordpress-integration.md)
 
 ## Managing your account
 
