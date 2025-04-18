@@ -1,12 +1,16 @@
 # WordPress Integration
 
-If you are looking to integrate your website with WordPress, you have 3 options
+If you are looking to integrate your website with WordPress, you have 3 methods:
 
-### Method 1. Include in the Site Footer in your Theme Builder
+### Method 1. Include in the Site Footer in your Theme Builder (Easy)
 
-Theme builders such as Elementor Pro or Divi provide the option to add code to the site footer
+Theme builders such as Elementor Pro or Divi provide the option to add code to the site footer.
+
+#### Elementor Pro Theme Builder
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Elementor Custom Code</p></figcaption></figure>
+
+#### Divi Theme Builder
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Divi Theme Options >Integration</p></figcaption></figure>
 
@@ -16,13 +20,13 @@ Simply add the provided script tag to your website’s HTML footer using your th
  <script id="convobot_extension" fallback-to-default="true" right-margin="3vw" bottom-margin="3vh"  src="https://content-beta.convogrid.ai/script/extension.v.0.1.1.min.js"></script>
 ```
 
-### Method 2. Using a code editor plugin
+### Method 2. Using a code editor plugin (Easy)
 
-By using plugins like Code Snippets or WP Code, you will be able to add the snippet directly to the site footer
+By using plugins like Code Snippets or WP Code, you will be able to add the snippet directly to the site footer.
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Code Snippets</p></figcaption></figure>
 
-Simply add the script tag to your website’s HTML footer using your code plugin
+Simply add the script tag to your website’s HTML footer using your code plugin.
 
 ```javascript
  <script id="convobot_extension" fallback-to-default="true" right-margin="3vw" bottom-margin="3vh"  src="https://content-beta.convogrid.ai/script/extension.v.0.1.1.min.js"></script>
